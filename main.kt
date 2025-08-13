@@ -157,10 +157,10 @@ class RangeRegulator(
 }
 
 fun main() {
-    var smartDevice: SmartTvDevice = SmartTvDevice("Android TV", "Entertainment")
+    val smartDevice: SmartTvDevice = SmartTvDevice("Android TV", "Entertainment")
     smartDevice.printDeviceInfo()
     
-    var secondSmartDevice = SmartLightDevice("Google Light", "Utility")
+    val secondSmartDevice = SmartLightDevice("Google Light", "Utility")
     secondSmartDevice.printDeviceInfo()
     
     
